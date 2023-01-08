@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserveren & betalen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="./css/screen.css">
+</head>
+
+<body>
+    <div class="res__wrapper">
+        <header class="header">
+            <div class="container">
+                <nav class="header__navigation navigation">
+                    <a href="#" class="navigation__logo">
+                        <img src="./img/header/header-logo.png" alt="logo">
+                    </a>
+                    <ul class="navigation__list">
+                        <li class="navigation__item">
+                            <a href="../../index.html" class="navigation__link">Home</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="../over/index.html" class="navigation__link">Over ons</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="../programma/index.html" class="navigation__link">Programma</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="./index.html" class="navigation__link navigation__link--active">Zalen</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="../contact/index.html" class="navigation__link">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="header__menu js-menu-open">
+                        <span>Zalen</span>
+                        <img src="./img/header/icon-burger.png" alt="icon burger">
+                    </button>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="res">
+                <div class="container">
+                    <h2 class="main__title">Reserveren & betalen</h2>
+                    <div class="decoration__line"></div>
+                    <div class="res__image">
+                        <picture>
+                            <source media="(max-width:480px)" srcset="
+                            ./img/reserv/image-mob-1.png,
+                            " type="image/png">
+                            <img src="./img/reserv/image-desk-1.png" alt="team" class="res__image--item">
+                        </picture>
+                        <img src="./img/reserv/image-icon.png" alt="icon" class="res__image--icon">
+                    </div>
+                    <h3 class="res__subtitle">Your concert</h3>
+                    <p class="res__text">The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.
+                        Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for
+                        quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright
+                        vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing
+                        daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven
+                        jocks help fax my big quiz. <a href="">Quick</a>, Baz, get my woven flax jodhpurs! "Now fax quiz
+                        Jack!" my
+                        brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps
+                        Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. The
+                        quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced
+                        by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox
+                        nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl
+                        quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop
+                        blew my junk TV quiz. How quickly daft jumping zebras vex. </p>
+
+                    <div class="ticket__form--desktop">
+                        <div class="first__block">
+                            <p class="ticket__name">Dagen over</p>
+                            <p class="ticket__info">30</p>
+                            <select class="ticket__select ticket__gevoon">
+                                <option>Gevoon</option>
+                            </select>
+                            <p class="ticket__price">€ 45</p>
+                        </div>
+                        <div class="second__block">
+                            <p class="ticket__name">Feest thema</p>
+                            <p class="ticket__info">Kerst</p>
+                            <p class="ticket__info">Santa</p>
+                            <p class="ticket__info">Rock</p>
+                            <p class="ticket__info">Crazy year</p>
+                        </div>
+                        <div class="third__block">
+                            <p class="ticket__name">Event loptijd </p>
+                            <p class="ticket__info">4 dagen</p>
+                        </div>
+                        <div class="fourth__block">
+                            <select class="ticket__select">
+                                <option>Begin</option>
+                            </select>
+                            <select class="ticket__select">
+                                <option>Einde</option>
+                            </select>
+                            <select class="ticket__select">
+                                <option>Mand</option>
+                            </select>
+                            <select class="ticket__select">
+                                <option>Jaar</option>
+                            </select>
+                        </div>
+                        <p class="ticket__name">Betaal info</p>
+                        <div class="fifth__block">
+                            <input type="text" class="ticket__input" placeholder="Naam">
+                            <input type="text" class="ticket__input" placeholder="Achternaam    ">
+                        </div>
+                        <div>
+                            <select class="ticket__select">
+                                <option>Daag</option>
+                            </select>
+                            <select class="ticket__select">
+                                <option>Mand</option>
+                            </select>
+                            <select class="ticket__select">
+                                <option>Jaar</option>
+                            </select>
+                        </div>
+                        <div class="seventh__block">
+                            <input type="text" class="ticket__input" placeholder="Mail">
+                            <input type="text" class="ticket__input" placeholder="Gsm">
+                        </div>
+                        <div class="eights__block">
+                            <input type="text" class="ticket__input" placeholder="Bankrekening">
+                            <input type="text" class="ticket__cvv" placeholder="CVV">
+                            <select class="ticket__select">
+                                <option>Mand</option>
+                            </select>
+                            <select class="ticket__select">
+                                <option>Jaar</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="ticket__button">Kopen</button>
+                        <a href="../zaalverhuur/index.html" class="ticket__button">Terug</a>
+                    </div>
+
+                    <div class="ticket__form--mobile">
+                        <div class="first__block">
+                            <p class="ticket__name">Dagen over</p>
+                            <p class="ticket__info">30</p>
+                        </div>
+                        <div class="second__block">
+                            <p class="ticket__name">Feest thema</p>
+                            <p class="ticket__info">Kerst</p>
+                            <p class="ticket__info">Santa</p>
+                            <p class="ticket__info">Rock</p>
+                            <p class="ticket__info">Crazy year</p>
+                        </div>
+                        <div class="third__block">
+                            <p class="ticket__name">Event loptijd </p>
+                            <p class="ticket__info">4 dagen</p>
+                        </div>
+                        <div class="fourth__block">
+                            <select class="ticket__select">
+                                <option>Begin</option>
+                            </select>
+                            <select class="ticket__select">
+                                <option>Einde</option>
+                            </select>
+                        </div>
+                        <p class="ticket__name">Betaal info</p>
+                        <div class="fifth__block">
+                            <input type="text" class="ticket__input" placeholder="Naam">
+                            <input type="text" class="ticket__input" placeholder="Achternaam    ">
+                        </div>
+                        <div class="eights__block">
+                            <select class="ticket__select">
+                                <option>Mand</option>
+                            </select>
+                            <select class="ticket__select">
+                                <option>Jaar</option>
+                            </select>
+                            <select class="ticket__select">
+                                <option>Jaar</option>
+                            </select>
+                        </div>
+                        <div class="seventh__block">
+                            <input type="text" class="ticket__input" placeholder="Naam">
+                            <input type="text" class="ticket__input" placeholder="Achternaam    ">
+                        </div>
+                        <input type="text" class="ticket__bank" placeholder="Bankrekening">
+                        <div class="eights__block">
+                            <input type="text" class="ticket__cvv" placeholder="Cvv">
+                            <select class="ticket__select">
+                                <option>Jaar</option>
+                            </select>
+                            <select class="ticket__select">
+                                <option>Mand</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="ticket__button">Kopen</button>
+                        <a href="../zaalverhuur/index.html" class="ticket__button">Terug</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer__menu menu">
+                <ul class="menu__list">
+                    <div>
+                        <li class="menu__item">
+                            <a href="../../index.html" class="menu__link">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="../over/index.html" class="menu__link">Over ons</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="../programma/index.html" class="menu__link">Programa</a>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="menu__item">
+                            <a href="../zaalverhuur/index.html" class="menu__link">Zaalen</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="../contact/index.html" class="menu__link">Contact</a>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+            <p class="footer__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took
+                a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+                more recently with desktop publishing software like Aldus PageMaker i</p>
+            <div class="footer__links">
+                <ul class="links__list">
+                    <li class="links__item">
+                        <a href="https://www.facebook.com/login/" class="links__link">
+                            <svg width="10" height="19" class="links__icon">
+                                <use href="../../img/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="links__item">
+                        <a href="https://twitter.com/i/flow/login" class="links__link">
+                            <svg width="23" height="19" class="links__icon">
+                                <use href="../../img/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="links__item">
+                        <a href="https://www.instagram.com/" class="links__link">
+                            <svg width="19" height="19" class="links__icon">
+                                <use href="../../img/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <a href="mailto:NaamAchternaam@gmail.com" class="links__email">NaamAchternaam@gmail.com</a>
+                <form class="links__form">
+                    <input type="text" placeholder="Email Address" class="links__input">
+                    <button type="submit" class="links__submit">OK</button>
+                </form>
+            </div>
+        </div>
+        <p class="footer__text--mob">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem
+            Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took
+            a galley of type and scrambled it to make a type specimen book. It has survived not only five
+            centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+            popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+            more recently with desktop publishing software like Aldus PageMaker i</p>
+        <p class="footer__designer">Designed <br> by <br> Leonid Tymoshek</p>
+
+    </footer>
+
+    <div class="backdrop">
+        <button class="burger__menu--button js-menu-close">
+            <img src="../../img/mobile-menu/close-icon.png" alt="close" width="40" height="40">
+        </button>
+        <ul class="burger__menu--list">
+            <li class="burger__menu--item">
+                <a href="../../index.html" class="burger__menu--link">Home</a>
+            </li>
+            <li class="burger__menu--item">
+                <a href="../over/index.html" class="burger__menu--link">Over ons</a>
+            </li>
+            <li class="burger__menu--item">
+                <a href="../programma/index.html" class="burger__menu--link">Programma</a>
+            </li>
+            <li class="burger__menu--item">
+                <a href="./index.html" class="burger__menu--link">Zalen</a>
+            </li>
+            <li class="burger__menu--item">
+                <a href="../contact/index.html" class="burger__menu--link">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <script src="../../js/script.js"></script>
+</body>
+
+</html>
