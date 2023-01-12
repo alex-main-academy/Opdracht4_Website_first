@@ -535,8 +535,32 @@
     margin: 32px auto 0 auto;
 }
 
+.zaal__pagination {
+    display: flex;
+    gap: 11px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.zaal__pagination--item {
+    width: 22px;
+    height: 22px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.zaal__pagination--item:focus {
+    background-color: var(--accent-text-color);
+}
+
 @media screen and (max-width:480px) {
     .zaal__button {
         display: block;
+    }
+
+    .zaal__pagination {
+        display: none;
     }
 }

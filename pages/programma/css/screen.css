@@ -125,9 +125,32 @@
     display: none;
 }
 
+.program__pagination {
+    display: flex;
+    gap: 11px;
+    justify-content: center;
+}
+
+.program__pagination--item {
+    width: 22px;
+    height: 22px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.program__pagination--item:focus {
+    background-color: var(--accent-text-color);
+}
+
 @media screen and (max-width:480px) {
     .program__button {
         display: block;
+    }
+
+    .program__pagination {
+        display: none;
     }
 }
 
