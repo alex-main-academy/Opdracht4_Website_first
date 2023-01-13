@@ -231,6 +231,10 @@
     margin-left: 10px;
 }
 
+select option {
+    color: #000000;
+}
+
 @media screen and (max-width:480px) {
     .ticket__select {
         width: 85.5px;

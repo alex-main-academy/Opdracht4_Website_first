@@ -173,8 +173,12 @@
     }
 }
 
+select option {
+    color: #000000
+}
+
 .ticket__select {
-    background-image: url(../img/ticket/top-arrow-icon.png);
+    background-image: url(../img/reserv/top-arrow-icon.png);
     background-repeat: no-repeat;
     background-position: right 24px center;
 
